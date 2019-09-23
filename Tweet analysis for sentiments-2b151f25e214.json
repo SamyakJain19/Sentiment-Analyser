@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "tweet-analysis-for-sentiments",
+  "private_key_id": "2b151f25e214d0fb91b47106209171307885ca2f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCcdQBFxdFusvRF\nuKEjxcx8YEGF/4IcQSGQjrInBnyd+au9xExvqsQXGlnriOvhE5PKOZtWsNo7NlHu\nmzaWpXQro4nX4uT9hddhYrHwvpwnCldhevTjVn1B7S6VVu8wMC+jr1vKsMzqACcF\naZlVLZ0mEMCSES2W5rqyGOuxKTF637vTTfdbMMvlDzabN44vngkmIqyvCL6G1lQn\nEmDIGAwxtssrT3oOe59wZPgOm1rGekv8ctaDp8CHwYW2Soh2zEavmK5D7MCObXPE\nrttovmIMqzwCs5r5phYtkJeosy1jlld6VbHkyuUZbqIS5OAwrdcsKd0NiFVzA+Id\nARSa7C55AgMBAAECggEAA/tfPdAWGyQxdisqursG+LLZLeJg0h8tsOtkcc4YgTQ6\nvZr+OzRro6ZXW80HcI6IxVZ/XBpsn9BZ+BviidQr52mx+hjv509dlvrIvqsKg4tO\nbNYz3xRtZCLUzS4fMMBHBWMkSeCPDoxJ/ZZpHmS4B0/B7XisityZ/Px8kJtmSR7v\naiCDRPGcdDEXsS3Pxp0L3yGKWVfVG4m/ykfGGtmRk4tm2D3qWTXgGVw6pRDk816C\nRC5wplr+MVgBGoTwb/x8+oNEsUkJEIZ5ZqiookMaQ1D3MSz7Kg0p2L7zr3cQxC8f\n6JPPlmyENTEb6rpgqUVajHCDy3Lzz4Z53vMmpINMOwKBgQDMsj6zcZm4xFHqChDr\ny/ZUvKXSZQeX2nv00enJcqPP1OshnGnJYYXlOduRAI19v/GSONMhR9q4hY1hQLn1\nqFwMemqLHHJ3vgZivKOalXtk8M29pIMSNVDYSoDA1682L2a5eMchuC+8TwHh9bRC\nZaSy464Ca7e8UzUc63zRYyy9uwKBgQDDq59krGd/SvJaCeX6DXe66i5w0sjNlU3Q\nMyG1hdKouxs0IT5hrRmUoTY1OAZ60dx94lnrtYK7XqVe9b44Sq3Vqc8ivcjiCr9b\niH+sO4XhvuzQBO87RlZU7hg4rHEBrdRrzPSxlUygXNUSvWvQfStlUjvtjsXrUu3G\nh8NLWuPnWwKBgCnfNFBEpqtTDWaQlJGHcWY4CLuXCwyXFtAnuGkK2FOFPGvtsP4O\nwvL2+OEaedcFUocUtKuUJTulphwEv4Vu4RV0XSMDuK6h4nCEIftXJJyrXYqzglRR\nL65u3xOTizXMUHkUKbfOE4Wzq7DrL+p9HEmzpT69hiIx6yV1Tl0OqnJNAoGBAJa6\n/XV7DdtUK69Kkrt2ZnY5cf79kSw1SJUK3nvMFARg5krZFQn/Y4ZITc7fUraINZdP\np79YutWFylSFb7xDYvgF8IettTLT3qcvVlKiI7dL8XcpZfS+cUDJjSUTSZZmhw1n\n/FNUVIvwFz9xZb1cvvI1T+7nHfXykzJtYPcKlCejAoGBALQKVt0SwgJDzkh8TGLL\nSjJ2OJqxeKyp9yFTrz1YCktsr/1hfgOhAPqfC4050iu1/nZW+bTFPzrzdz65/lyY\n96gBvK4XcLld90YnyQKLFHbyJ1wJIHxt3sF7k9vFoZCgNwwbeFueIKbh74PgTs3D\n6kT5694XXTp4ZxaWvdaknlqM\n-----END PRIVATE KEY-----\n",
+  "client_email": "sentiment-analyser@tweet-analysis-for-sentiments.iam.gserviceaccount.com",
+  "client_id": "100211465634850275036",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sentiment-analyser%40tweet-analysis-for-sentiments.iam.gserviceaccount.com"
+}
