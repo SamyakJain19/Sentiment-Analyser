@@ -1,6 +1,7 @@
 import tweepy
 from tweepy import OAuthHandler
 from datetime import datetime, timedelta
+from nltk.tokenize import WordPunctTokenizer
 
 def get_tweets(prod_name):
 	consumer_key = input("Enter your API key: ")
@@ -15,8 +16,23 @@ def get_tweets(prod_name):
 	hashtag = '#' + prod_name + '-filter:nativeretweets'
 	lastweek = datetime.today().now() - timedelta(days=7)
 	lastweek_date = lastweek.strftime('%Y-%m-%d')
-	results = tweepy.Cursor(api.search, q = hashtag, tweet_mode = 'extended', lang = 'en', since = lastweek_date).items(50)
-	return results
+	results = tweepy.Cursor(api.search, q = hashtag, tweet_mode = 'extended', lang = 'en', since = lastweek_date)
+	
+	for tweet in results:
+		encoded_tweet = tweet.text.encode('utf-8')
+		rem_user = re.sub(r'@[A-Za-z0-9]+','',encoded_tweet.decode('utf-8'))
+		rem_num  = re.sub('[^a-zA-Z]', ' ', rem_user)
+		tok = WordPunctTokenizer()
+	    words = tok.tokenize(rem_num)
+	    tweets_updated = (' '.join(words)).strip()	
+	
+	return tweets_updated
+
+
+
+
+
+ 
 
 
 
