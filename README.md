@@ -6,8 +6,9 @@ ARCHITECTURE:
 This app is designed by incorporating the Twitter API and the Google Natural Language API. 
 Python programming language is used here to write the code for this app. The code is divided into three different files:
 
-	A. main.py
-	B. twitter.py
-	C. google_nlp.py
+	A. main.py: This is python script which is used to run the Sentiment Analyser. It interacts with the files twitter.py 		 and google_nlp.py.
+	B. twitter.py: This python script is used to extract twitter feeds based on a search parameter(a keyword), clean them 		 so that they can be analysed using the Google NLP API. 
+	C. google_nlp.py: 
+
 
 	
