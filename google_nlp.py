@@ -23,7 +23,7 @@ def print_result(annotations):
 
 
 
-def analyze(movie_review_filename):
+def analyze(tweet):
     """Run a sentiment analysis request on text within a passed filename."""
     client = language.LanguageServiceClient.from_service_account_json("/media/sf_shared_folder/creds.json")
 
