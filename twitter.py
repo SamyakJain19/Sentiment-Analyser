@@ -3,12 +3,14 @@ from tweepy import OAuthHandler
 from datetime import datetime, timedelta
 from nltk.tokenize import WordPunctTokenizer
 
-def get_tweets(prod_name):
-	consumer_key = input("Enter your API key: ")
-	consumer_secret_key = input("Enter your API secret key: ")
-	access_token = input("Enter your access token: ")
-	access_secret_token = input("Enter your secret access token: ")	
+consumer_key = ''
+consumer_secret_key = ''
+access_token = ''
+access_secret_token = ''	
 
+
+def get_tweets(prod_name):
+	
 	auth = OAuthHandler(consumer_key, consumer_secret)
 	auth.set_access_token(access_token, access_secret) 
 	api = tweepy.API(auth)
