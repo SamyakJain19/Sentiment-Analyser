@@ -4,8 +4,33 @@ This project is developed to analyse Twitter feeds and give an averall report of
 
 ### USER STORIES:
 
+As a company owner, I want to get feedback through sentiment analysis from twitter users' relevent posts.
 
+As a company owner, I want to manuficature and make more popular and better products to the market. 
 
+Then I could use this data to reviewing users' reviews and opinions.
+
+a). Improve our product by getting the drawbacks from feedback
+
+b). Get to know the popularity of my own product.
+
+### MVP
+
+Our MVP is combining Tweeter api and Google language api and use them to analyse users' sentiment. User data are grabbed from tweeter by using tweeter api and put into Google natural language api to analyse the sentiment of eaach commect them give for a certain product. We use "clean tweets" and keywords to find tweets that focuses on a certain type of product. By doing this we get feedbacks and use it to improve the product.
+ 
+### LESSON WE LEARNED
+
+1. What you liked doing?
+
+We would like to do my coding and working on user stories, especially brain storming.
+
+2. What you could have done better?
+
+If we had down better on planning and had better coding capability, we might have done btter on this project.
+
+3. What you will avoid in the future?
+
+We will not put things to the end of deadline and we will try to have better discussion and communication on methods when we are completing a project.
 
 ### WORK DIVISION:
 * Samyak is working on Twitter API to extract and clean the data from twitter feeds to get useful data for analysis.
